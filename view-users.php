@@ -43,5 +43,10 @@ include("connection.php");
     <a href="index.php" class="btn btn-accent btn-small" id="left">BACK</a>
     <a href="transfer.php" class="btn btn-accent btn-small">Transfer Credit</a>
 </br>
+
+<footer>
+        <p>Credit Management System by Harshita Mangla</p>
+    </footer>
+    
 </body>
 </html>

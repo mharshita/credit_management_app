@@ -32,5 +32,10 @@ include("connection.php");
             </tr>
         </table>
     </form>
+
+    <footer>
+        <p>Credit Management System by Harshita Mangla</p>
+    </footer>
+    
 </body>
 </html>

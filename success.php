@@ -30,5 +30,10 @@ if(isset($_POST['transfers']))
 <body>
     <h1>CREDITS TRANSFERRED SUCCESSFULLY</h1>
     <a href="view-users.php"  class="btn btn-accent btn-small">VIEW ALL USERS</a>
+
+    <footer>
+        <p>Credit Management System by Harshita Mangla</p>
+    </footer>
+    
 </body>
 </html>

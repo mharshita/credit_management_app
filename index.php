@@ -9,5 +9,9 @@
 <body>
     <h1>Credit Management</h1>
     <a href="view-users.php" class="btn btn-accent btn-small">View All Users</a>
+
+    <footer>
+        <p>Credit Management System by Harshita Mangla</p>
+    </footer>
 </body>
 </html>

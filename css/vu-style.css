@@ -160,3 +160,15 @@
    background: rgba(126, 20, 224, 0.664);
    color: #ffffff;
 }
+
+footer{
+    background-color: rgba(126, 20, 224, 0.664);
+    color: #ffffff;
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.2em;
+    margin-top: 2em;
+}
