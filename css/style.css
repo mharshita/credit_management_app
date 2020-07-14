@@ -1,0 +1,62 @@
+@import
+ url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+ *{
+     box-sizing: border-box;
+     transition: all ease-in-out 250ms;
+ }
+
+ body{
+     margin: 0;
+     text-align: center;
+     background-color:  rgb(250, 228, 209);
+ }
+
+ h1{
+     color: rgba(126, 20, 224, 0.664);
+     font-family: 'Raleway',sans-serif;
+     font-size: 2rem;
+ }
+
+ @media(min-width: 60rem)
+{
+
+    h1{
+        color: rgba(126, 20, 224, 0.664);
+        font-family: 'Raleway',sans-serif;
+        font-size: 8.7rem;
+    }
+   
+}
+
+ .btn{
+     font-size: 1.5rem;
+     text-decoration: none;
+     text-transform: uppercase;
+     border-width: 2px;
+     border-style: solid;
+     padding: 0.5em 1.5em;
+     display: inline-block;
+     cursor: pointer;
+     font-family: 'Raleway',sans-serif;
+ }
+
+ .btn:hover {
+    background: rgba(126, 20, 224, 0.664);
+  }
+
+  btn-small{
+    font-size: 0.5rem;
+    font-weight: 700;
+}
+
+.btn-accent{
+    color: rgba(126, 20, 224, 0.664);
+    border-color: rgba(126, 20, 224, 0.664);
+}
+
+.btn-accent:hover,
+.btn-accent:focus{
+    background: rgba(126, 20, 224, 0.664);
+    color: #ffffff;
+}

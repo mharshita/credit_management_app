@@ -1,0 +1,89 @@
+@import
+ url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+ *{
+     box-sizing: border-box;
+     transition: all ease-in-out 250ms;
+ }
+
+ body{
+     text-align: left;
+     background-color:  rgb(250, 228, 209);
+ }
+
+ @media(min-width: 60rem)
+ {
+    body{
+        text-align: left;
+        background-color:  rgb(250, 228, 209);
+        margin-left: 6em;
+    }
+ }
+
+ h1{
+     color: rgba(126, 20, 224, 0.664);
+     font-family: 'Raleway',sans-serif;
+     font-size: 1.5rem;
+ }
+
+ @media(min-width: 60rem)
+ {
+    h1{
+        color: rgba(126, 20, 224, 0.664);
+        font-family: 'Raleway',sans-serif;
+        font-size: 5rem;
+    }
+ }
+
+ .btn{
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0.5em 1.5em;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Raleway',sans-serif;
+    background: transparent;
+    margin-top: 2em;
+    margin-left: 0.2em;
+}
+
+@media(min-width: 60rem)
+{
+    .btn{
+        font-size: 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-width: 2px;
+        border-style: solid;
+        padding: 0.5em 1.5em;
+        display: inline-block;
+        cursor: pointer;
+        font-family: 'Raleway',sans-serif;
+        background: transparent;
+        margin-top: 2em;
+        margin-left: 8em;
+    }
+}
+
+.btn:hover {
+   background: rgba(126, 20, 224, 0.664);
+ }
+
+ btn-small{
+   font-size: 0.5rem;
+   font-weight: 700;
+}
+
+.btn-accent{
+   color: rgba(126, 20, 224, 0.664);
+   border-color: rgba(126, 20, 224, 0.664);
+}
+
+.btn-accent:hover,
+.btn-accent:focus{
+   background: rgba(126, 20, 224, 0.664);
+   color: #ffffff;
+}
