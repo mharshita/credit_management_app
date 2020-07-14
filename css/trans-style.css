@@ -8,23 +8,20 @@
 
  body{
      text-align: left;
-     background-color:  rgb(250, 228, 209);
-     /*margin-left: 6em;*/
-     /*margin-left: 0;*/
+     background-color:  #ffffff;
  }
 
  h1{
-     color: rgba(126, 20, 224, 0.664);
+     color: black;
      font-family: 'Raleway',sans-serif;
      font-size: 1.5rem;
-     /*margin-top: 5em;*/
  }
 
  @media(min-width: 60rem)
  {
     body{
         text-align: left;
-        background-color:  rgb(250, 228, 209);
+        background-color:  #ffffff;
         margin-left: 6em;
     }
  }
@@ -32,14 +29,14 @@
  @media(min-width: 60rem)
  {
     h1{
-        color: rgba(126, 20, 224, 0.664);
+        color: black;
         font-family: 'Raleway',sans-serif;
         font-size: 7rem;
     }
  }
 
  .text{
-     color: rgba(126, 20, 224, 0.664);
+     color: black;
      font-family:  'Raleway',sans-serif;
      font-size: 1em;
  }
@@ -47,7 +44,7 @@
  @media(min-width: 60rem)
  {
     .text{
-        color: rgba(126, 20, 224, 0.664);
+        color: black;
         font-family:  'Raleway',sans-serif;
         font-size: 4em;
     }
@@ -60,7 +57,7 @@
      background: transparent;
      border: none;
      border-bottom-style: solid;
-     border-color: rgba(77, 10, 139, 0.664);
+     border-color: black;
      outline: none;
      margin-left: 0;
  }
@@ -74,7 +71,7 @@
         background: transparent;
         border: none;
         border-bottom-style: solid;
-        border-color: rgba(77, 10, 139, 0.664);
+        border-color: black;
         outline: none;
     }
  }
@@ -113,7 +110,7 @@
 }
 
 .btn:hover {
-   background: rgba(126, 20, 224, 0.664);
+   background: rgb(7, 207, 7);
  }
 
  btn-small{
@@ -122,19 +119,19 @@
 }
 
 .btn-accent{
-   color: rgba(126, 20, 224, 0.664);
-   border-color: rgba(126, 20, 224, 0.664);
+   color: rgb(7, 207, 7);
+   border-color: rgb(7, 207, 7);
 }
 
 .btn-accent:hover,
 .btn-accent:focus{
-   background: rgba(126, 20, 224, 0.664);
+   background: rgb(7, 207, 7);
    color: #ffffff;
 }
 
 footer{
-    background-color: rgba(126, 20, 224, 0.664);
-    color: #ffffff;
+    background-color: rgb(195, 188, 188);
+    color: black;
     position: fixed;
     left: 0;
     bottom: 0;

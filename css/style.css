@@ -9,11 +9,11 @@
  body{
      margin: 0;
      text-align: center;
-     background-color:  rgb(250, 228, 209);
+     background-color: white;
  }
 
  h1{
-     color: rgba(126, 20, 224, 0.664);
+     color: black;
      font-family: 'Raleway',sans-serif;
      font-size: 2rem;
  }
@@ -22,7 +22,7 @@
 {
 
     h1{
-        color: rgba(126, 20, 224, 0.664);
+        color: black;
         font-family: 'Raleway',sans-serif;
         font-size: 8.7rem;
     }
@@ -42,7 +42,7 @@
  }
 
  .btn:hover {
-    background: rgba(126, 20, 224, 0.664);
+    background: rgb(7, 207, 7);
   }
 
   btn-small{
@@ -51,19 +51,19 @@
 }
 
 .btn-accent{
-    color: rgba(126, 20, 224, 0.664);
-    border-color: rgba(126, 20, 224, 0.664);
+    color:  rgb(7, 207, 7);
+    border-color: rgb(7, 207, 7);
 }
 
 .btn-accent:hover,
 .btn-accent:focus{
-    background: rgba(126, 20, 224, 0.664);
+   background: rgb(7, 207, 7);
     color: #ffffff;
 }
 
 footer{
-    background-color: rgba(126, 20, 224, 0.664);
-    color: #ffffff;
+    background-color: rgb(195, 188, 188);
+    color: black;
     position: fixed;
     left: 0;
     bottom: 0;
