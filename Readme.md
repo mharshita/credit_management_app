@@ -5,6 +5,8 @@
 
 ### This application is hosted at: https://credit-management-sys.herokuapp.com/
 
+### Video demo of this project: https://youtu.be/fZzLu3Tbqgs
+
 ---
 
 ## Installation Steps
@@ -20,4 +22,3 @@
 ### 3.Edit connection.php file by replacing database name, username, password and host name with your MySQL entries on your localhost.
 
 ### 4.Save the updated file.
- 
